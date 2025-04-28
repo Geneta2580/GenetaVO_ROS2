@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7a67274f081469f2f16e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "geneta_slam_ros2_pkg__py",
+					"jsonFile" : "directory-geneta_slam_ros2_pkg__py-977a96aa841fa8b33cde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/geneta/Project/geneta_slam_ros2_ws/src/build/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "geneta_slam_ros2_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_geneta_slam_ros2_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_geneta_slam_ros2_pkg_egg-d4bdb9115e2e26d12edb.json",
+					"name" : "ament_cmake_python_build_geneta_slam_ros2_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_geneta_slam_ros2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_geneta_slam_ros2_pkg-3c756233425f735f02aa.json",
+					"name" : "ament_cmake_python_copy_geneta_slam_ros2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_frontend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_frontend-7641ac72c966c88a9ff7.json",
+					"name" : "geneta_frontend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg-9f2a8357953c9bffa982.json",
+					"name" : "geneta_slam_ros2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__cpp-00a6455df1ac90b7454a.json",
+					"name" : "geneta_slam_ros2_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "geneta_slam_ros2_pkg__py::@00cf2cd4651bae613c37",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__py-9866d4080a4e181c3b61.json",
+					"name" : "geneta_slam_ros2_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_generator_c-2c517c7a20e641802326.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_generator_py-c7c6dd6752f1049239b6.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_generator_type_description-896eddea78b6b75192dc.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_c-24c42a1e0bc2bbeeb42c.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_cpp-5359647db930d7d87c9a.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c-acdb4647c7c1128d2a35.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp-c80778cf28fc1342721a.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c-79b3b73cb1c26800a0ca.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp-dd2a682ffa0ea697d2df.json",
+					"name" : "geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg_s__rosidl_typesupport_c-37a3cd8c5d1d70acbf3d.json",
+					"name" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c-c069b47317b59f55e788.json",
+					"name" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c-0d529bdd454dede9c954.json",
+					"name" : "geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geneta_slam_ros2_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geneta_slam_ros2_pkg_uninstall-59a0419ed3d8bc5cf6e5.json",
+					"name" : "geneta_slam_ros2_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_publisher-16ca929c7c0fc05cf110.json",
+					"name" : "image_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_cam_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_cam_node-ec1b3fe3c17caa390013.json",
+					"name" : "stereo_cam_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e1937509165db141afc9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/geneta/Project/geneta_slam_ros2_ws/src/build/geneta_slam_ros2_pkg",
+		"source" : "/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

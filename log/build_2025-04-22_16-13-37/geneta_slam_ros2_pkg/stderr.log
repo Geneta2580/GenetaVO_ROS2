@@ -1,0 +1,72 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /usr/local/lib/cmake/g2o/g2oConfig.cmake:6 (find_dependency)
+  CMakeLists.txt:25 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/src/slam_core/frame.cpp:[m[K In constructor ‘[01m[KFrame::[01;32m[KFrame[m[K(long int, double, const cv::Mat&, const cv::Mat&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/src/slam_core/frame.cpp:3:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | Frame::Frame(long id, [01;35m[Kdouble timestamp[m[K, const Mat &left, const Mat &right) :
+      |                       [01;35m[K~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/backend.h:8[m[K,
+                 from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/frontend.h:9[m[K,
+                 from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/src/slam_core/frontend.cpp:1[m[K:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexPose::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:34:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override {return true;}
+      |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexPose::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:36:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   36 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override {return true;}
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectionPoseOnly::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:74:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   74 |         bool read([01;35m[Kstd::istream &in[m[K) override {return true;}
+      |                   [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectionPoseOnly::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:76:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   76 |         bool write([01;35m[Kstd::ostream &out[m[K) const override{return true;}
+      |                    [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexXYZ::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:96:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   96 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+      |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexXYZ::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:98:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   98 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjection::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:146:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  146 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+      |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjection::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:148:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  148 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool LoopEdge::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:173:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  173 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+      |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool LoopEdge::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:175:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  175 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+      |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_imgproc.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410

@@ -1,0 +1,91 @@
+[0.011s] Invoking command in '/home/geneta/Project/geneta_slam_ros2_ws/src/build/geneta_slam_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.261s] -- The CXX compiler identification is GNU 13.3.0
+[0.284s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.397s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.600s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.619s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.811s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.984s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.066s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.092s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.271s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.279s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.482s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.505s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.530s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.632s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.699s] -- Found message_filters: 4.11.4 (/opt/ros/jazzy/share/message_filters/cmake)
+[1.708s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.721s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[1.765s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+[1.765s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.765s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.765s]   cmake_policy command to set the policy and suppress this warning.
+[1.766s] 
+[1.766s]   FindOpenGL found both a legacy GL library:
+[1.766s] 
+[1.766s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.766s] 
+[1.766s]   and GLVND libraries for OpenGL and GLX:
+[1.766s] 
+[1.766s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.766s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.766s] 
+[1.766s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.766s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.766s] Call Stack (most recent call first):
+[1.766s]   /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+[1.766s]   /usr/local/lib/cmake/g2o/g2oConfig.cmake:6 (find_dependency)
+[1.766s]   CMakeLists.txt:24 (find_package)
+[1.766s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.766s] [0m
+[1.766s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.774s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.806s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[1.815s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.974s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.998s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.999s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.999s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.013s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.048s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.058s] -- Found image_transport: 5.1.5 (/opt/ros/jazzy/share/image_transport/cmake)
+[2.081s] -- Found camera_info_manager: 5.1.5 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[2.097s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.864s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.759s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.114s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.253s] -- Found PythonExtra: /usr/bin/python3  
+[4.706s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.806s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.898s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+[4.899s]   add_custom_target cannot create target "geneta_slam_ros2_pkg" because
+[4.899s]   another target with the same name already exists.  The existing target is a
+[4.899s]   custom target created in source directory
+[4.899s]   "/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg".  See
+[4.899s]   documentation for policy CMP0002 for more details.
+[4.899s] Call Stack (most recent call first):
+[4.899s]   CMakeLists.txt:231 (rosidl_generate_interfaces)
+[4.899s] 
+[4.899s] [0m
+[4.911s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.966s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.966s] -- Configured cppcheck include dirs: /home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include
+[4.966s] -- Configured cppcheck exclude dirs and/or files: 
+[4.969s] -- Added test 'lint_cmake' to check CMake code style
+[4.972s] -- Added test 'uncrustify' to check C / C++ code style
+[4.973s] -- Configured uncrustify additional arguments: 
+[4.974s] -- Added test 'xmllint' to check XML markup files
+[4.979s] -- Configuring incomplete, errors occurred!
+[4.996s] Invoked command in '/home/geneta/Project/geneta_slam_ros2_ws/src/build/geneta_slam_ros2_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg -DCMAKE_INSTALL_PREFIX=/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg

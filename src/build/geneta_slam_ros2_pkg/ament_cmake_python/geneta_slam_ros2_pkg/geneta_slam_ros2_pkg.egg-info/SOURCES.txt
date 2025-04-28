@@ -1,0 +1,8 @@
+setup.py
+geneta_slam_ros2_pkg/__init__.py
+geneta_slam_ros2_pkg.egg-info/PKG-INFO
+geneta_slam_ros2_pkg.egg-info/SOURCES.txt
+geneta_slam_ros2_pkg.egg-info/dependency_links.txt
+geneta_slam_ros2_pkg.egg-info/top_level.txt
+geneta_slam_ros2_pkg/msg/__init__.py
+geneta_slam_ros2_pkg/msg/_fand_b.py

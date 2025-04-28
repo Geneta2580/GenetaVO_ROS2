@@ -1,0 +1,6 @@
+{
+  "package_name": "geneta_slam_ros2_pkg",
+  "non_idl_tuples": [
+    "/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg:msg/FandB.msg"
+  ]
+}

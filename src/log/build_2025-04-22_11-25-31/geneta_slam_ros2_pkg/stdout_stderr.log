@@ -1,0 +1,272 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found message_filters: 4.11.4 (/opt/ros/jazzy/share/message_filters/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FindOpenGL.cmake:381 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)
+  /usr/local/lib/cmake/g2o/g2oConfig.cmake:6 (find_dependency)
+  CMakeLists.txt:24 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found image_transport: 5.1.5 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found camera_info_manager: 5.1.5 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/geneta/Project/geneta_slam_ros2_ws/src/build/geneta_slam_ros2_pkg
+[  2%] [32mBuilding CXX object CMakeFiles/stereo_cam_node.dir/src/stereo_cam_node.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[  7%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_copy_geneta_slam_ros2_pkg
+running egg_info
+creating geneta_slam_ros2_pkg.egg-info
+writing geneta_slam_ros2_pkg.egg-info/PKG-INFO
+writing dependency_links to geneta_slam_ros2_pkg.egg-info/dependency_links.txt
+writing top-level names to geneta_slam_ros2_pkg.egg-info/top_level.txt
+writing manifest file 'geneta_slam_ros2_pkg.egg-info/SOURCES.txt'
+[  7%] Built target geneta_slam_ros2_pkg__rosidl_generator_type_description
+[ 10%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'geneta_slam_ros2_pkg.egg-info/SOURCES.txt'
+writing manifest file 'geneta_slam_ros2_pkg.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_geneta_slam_ros2_pkg_egg
+[ 12%] Built target geneta_slam_ros2_pkg__cpp
+[ 15%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/geneta_slam_ros2_pkg/msg/detail/fand_b__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/geneta_slam_ros2_pkg/msg/detail/fand_b__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library libgeneta_slam_ros2_pkg__rosidl_generator_c.so[0m
+[ 22%] Built target geneta_slam_ros2_pkg__rosidl_generator_c
+[ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geneta_slam_ros2_pkg/msg/fand_b__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/geneta_slam_ros2_pkg/msg/fand_b__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geneta_slam_ros2_pkg/msg/detail/dds_fastrtps/fand_b__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c.o[0m
+[ 55%] [32m[1mLinking CXX shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_c.so[0m
+[ 57%] [32m[1mLinking C shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_c.so[0m
+[ 57%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_c
+[ 57%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c
+[ 60%] [32m[1mLinking CXX shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_cpp.so[0m
+[ 60%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_cpp
+[ 65%] [32m[1mLinking CXX shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] [32m[1mLinking CXX shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c
+[ 65%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp
+[ 67%] [32m[1mLinking CXX shared library libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target geneta_slam_ros2_pkg
+[ 70%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/slam_core/test_node.cpp.o[0m
+[ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] Built target geneta_slam_ros2_pkg__py
+[ 75%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/geneta_slam_ros2_pkg/msg/_fand_b_s.c.o[0m
+[ 77%] [32m[1mLinking C shared library libgeneta_slam_ros2_pkg__rosidl_generator_py.so[0m
+[ 77%] Built target geneta_slam_ros2_pkg__rosidl_generator_py
+[ 80%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared module rosidl_generator_py/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so[0m
+[ 92%] [32m[1mLinking C shared module rosidl_generator_py/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 92%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_c
+[ 92%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c
+[ 92%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c
+[ 95%] [32m[1mLinking CXX executable test_node[0m
+[ 95%] Built target test_node
+[ 97%] [32m[1mLinking CXX executable stereo_cam_node[0m
+/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[ 97%] Built target stereo_cam_node
+[100%] [32m[1mLinking CXX executable image_publisher[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[100%] Built target image_publisher
+-- Install configuration: ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.json
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/fand_b.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__functions.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__functions.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__description.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__struct.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/library_path.sh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/library_path.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/fand_b.hpp
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__struct.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__builder.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__traits.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/dds_fastrtps
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_introspection_c.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+-- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.cpp
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/pythonpath.sh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/pythonpath.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/_fand_b.py
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/__init__.py
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/_fand_b_s.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/__init__.py
+Listing '/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg'...
+Compiling '/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/__init__.py'...
+Listing '/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg'...
+Compiling '/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/__init__.py'...
+Compiling '/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/_fand_b.py'...
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_py.so" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.idl
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.msg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/image_publisher
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/image_publisher" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/stereo_cam_node
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/stereo_cam_node" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/test_node
+-- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/test_node" to ""
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/path.sh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/path.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.bash
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.sh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.zsh
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/package.dsv
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/packages/geneta_slam_ros2_pkg
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cppExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_pyExport.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkgConfig.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkgConfig-version.cmake
+-- Installing: /home/geneta/Project/geneta_slam_ros2_ws/src/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/package.xml

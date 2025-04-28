@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:25 (find_package):
+  By not providing "FindSuiteSparse.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "SuiteSparse", but CMake did not find one.
+
+  Could not find a package configuration file provided by "SuiteSparse" with
+  any of the following names:
+
+    SuiteSparseConfig.cmake
+    suitesparse-config.cmake
+
+  Add the installation prefix of "SuiteSparse" to CMAKE_PREFIX_PATH or set
+  "SuiteSparse_DIR" to a directory containing one of the above files.  If
+  "SuiteSparse" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:1100：cmake_check_build_system] 错误 1

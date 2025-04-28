@@ -1,0 +1,202 @@
+[0.014s] Invoking command in '/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg -- -j16 -l16
+[0.084s] [  2%] Built target geneta_slam_ros2_pkg__rosidl_generator_type_description
+[0.091s] [  6%] Built target stereo_cam_node
+[0.092s] [ 10%] Built target image_publisher
+[0.094s] [ 10%] Built target ament_cmake_python_copy_geneta_slam_ros2_pkg
+[0.110s] [ 13%] Built target geneta_slam_ros2_pkg__cpp
+[0.111s] [ 23%] Built target geneta_slam_ros2_pkg__rosidl_generator_c
+[0.142s] [ 45%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.142s] [ 45%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.142s] [ 52%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_introspection_c
+[0.142s] [ 56%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_c
+[0.142s] [ 56%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_cpp
+[0.143s] [ 63%] Built target geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.170s] [ 63%] Built target geneta_slam_ros2_pkg
+[0.198s] [ 65%] Built target geneta_slam_ros2_pkg__py
+[0.227s] [ 69%] Built target geneta_slam_ros2_pkg__rosidl_generator_py
+[0.240s] [ 71%] [32mBuilding CXX object CMakeFiles/geneta_frontend.dir/src/slam_core/frontend.cpp.o[0m
+[0.255s] [ 76%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c
+[0.255s] [ 80%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c
+[0.257s] [ 84%] Built target geneta_slam_ros2_pkg_s__rosidl_typesupport_c
+[0.275s] running egg_info
+[0.289s] writing geneta_slam_ros2_pkg.egg-info/PKG-INFO
+[0.289s] writing dependency_links to geneta_slam_ros2_pkg.egg-info/dependency_links.txt
+[0.289s] writing top-level names to geneta_slam_ros2_pkg.egg-info/top_level.txt
+[0.329s] reading manifest file 'geneta_slam_ros2_pkg.egg-info/SOURCES.txt'
+[0.330s] writing manifest file 'geneta_slam_ros2_pkg.egg-info/SOURCES.txt'
+[0.359s] [ 84%] Built target ament_cmake_python_build_geneta_slam_ros2_pkg_egg
+[4.761s] In file included from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/backend.h:8[m[K,
+[4.761s]                  from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/frontend.h:9[m[K,
+[4.761s]                  from [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/src/slam_core/frontend.cpp:1[m[K:
+[4.761s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexPose::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[4.762s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:34:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.762s]    34 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override {return true;}
+[4.762s]       |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.762s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexPose::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[4.762s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:36:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.762s]    36 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override {return true;}
+[4.762s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectionPoseOnly::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:74:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.772s]    74 |         bool read([01;35m[Kstd::istream &in[m[K) override {return true;}
+[4.772s]       |                   [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjectionPoseOnly::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:76:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.772s]    76 |         bool write([01;35m[Kstd::ostream &out[m[K) const override{return true;}
+[4.772s]       |                    [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexXYZ::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:96:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.772s]    96 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+[4.772s]       |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.772s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool VertexXYZ::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[4.773s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:98:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.773s]    98 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+[4.773s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[4.801s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjection::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[4.801s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:146:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.801s]   146 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+[4.801s]       |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.801s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool EdgeProjection::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[4.801s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:148:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.801s]   148 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+[4.801s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[4.803s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool LoopEdge::[01;32m[Kread[m[K(std::istream&)[m[K’:
+[4.803s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:173:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.803s]   173 |         virtual bool read([01;35m[Kstd::istream &in[m[K) override { return true; }
+[4.803s]       |                           [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.803s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:[m[K In member function ‘[01m[Kvirtual bool LoopEdge::[01;32m[Kwrite[m[K(std::ostream&) const[m[K’:
+[4.803s] [01m[K/home/geneta/Project/geneta_slam_ros2_ws/src/geneta_slam_ros2_pkg/include/slam_core/g2o_param.h:175:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.803s]   175 |         virtual bool write([01;35m[Kstd::ostream &out[m[K) const override { return true; }
+[4.803s]       |                            [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[24.299s] [ 86%] [32m[1mLinking CXX executable geneta_frontend[0m
+[25.616s] /usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+[25.617s] /usr/bin/ld: warning: libopencv_imgproc.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+[25.618s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[26.226s] [100%] Built target geneta_frontend
+[26.243s] Invoked command in '/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg -- -j16 -l16
+[26.256s] Invoking command in '/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg
+[26.266s] -- Install configuration: ""
+[26.266s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/geneta_slam_ros2_pkg
+[26.266s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.json
+[26.266s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/fand_b.h
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.h
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__functions.c
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__functions.h
+[26.267s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__description.c
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__struct.h
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/library_path.sh
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/library_path.dsv
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_c.so
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_fastrtps_c.h
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.268s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_c.so
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/fand_b.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__struct.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__builder.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__traits.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.269s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/dds_fastrtps
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_fastrtps_cpp.hpp
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.270s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_introspection_c.h
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.c
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_c.so
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_c.so
+[26.271s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__rosidl_typesupport_introspection_cpp.hpp
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/include/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg/msg/detail/fand_b__type_support.cpp
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_introspection_cpp.so
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_typesupport_cpp.so
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/pythonpath.sh
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/pythonpath.dsv
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info
+[26.272s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[26.272s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[26.272s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[26.272s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.272s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/_fand_b.py
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/__init__.py
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg/_fand_b_s.c
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/_geneta_slam_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[26.273s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/__init__.py
+[26.308s] Listing '/home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg'...
+[26.308s] Listing '/home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/msg'...
+[26.313s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_fastrtps_c.so
+[26.313s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_introspection_c.so
+[26.313s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/python3.12/site-packages/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg_s__rosidl_typesupport_c.so
+[26.314s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/libgeneta_slam_ros2_pkg__rosidl_generator_py.so
+[26.314s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.idl
+[26.314s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/msg/FandB.msg
+[26.315s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/image_publisher
+[26.315s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/geneta_frontend
+[26.337s] -- Set non-toolchain portion of runtime path of "/home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/geneta_frontend" to ""
+[26.337s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/lib/geneta_slam_ros2_pkg/stereo_cam_node
+[26.337s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/geneta_slam_ros2_pkg
+[26.337s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/geneta_slam_ros2_pkg
+[26.337s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/ament_prefix_path.sh
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/ament_prefix_path.dsv
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/path.sh
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/environment/path.dsv
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.bash
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.sh
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.zsh
+[26.338s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/local_setup.dsv
+[26.339s] -- Installing: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/package.dsv
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/ament_index/resource_index/packages/geneta_slam_ros2_pkg
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cExport.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cExport-noconfig.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_cppExport.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.339s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cExport.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.340s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cppExport.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_pyExport.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/export_geneta_slam_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkgConfig.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/cmake/geneta_slam_ros2_pkgConfig-version.cmake
+[26.341s] -- Up-to-date: /home/geneta/Project/geneta_slam_ros2_ws/install/geneta_slam_ros2_pkg/share/geneta_slam_ros2_pkg/package.xml
+[26.343s] Invoked command in '/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/geneta/Project/ROS2homework/dev_ws/install/learning_urdf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_topic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_tf:/home/geneta/Project/ROS2homework/dev_ws/install/learning_service:/home/geneta/Project/ROS2homework/dev_ws/install/learning_qos:/home/geneta/Project/ROS2homework/dev_ws/install/learning_pkg_python:/home/geneta/Project/ROS2homework/dev_ws/install/learning_parameter:/home/geneta/Project/ROS2homework/dev_ws/install/learning_node:/home/geneta/Project/ROS2homework/dev_ws/install/learning_launch:/home/geneta/Project/ROS2homework/dev_ws/install/learning_action:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo_harmonic:/home/geneta/Project/ROS2homework/dev_ws/install/learning_gazebo:/home/geneta/Project/ROS2homework/dev_ws/install/learning_cv:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg

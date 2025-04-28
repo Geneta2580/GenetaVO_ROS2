@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>geneta_slam_ros2_pkg</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="geneta2580@gmail.com">geneta</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <build_depend>rosidl_typesupport_fastrtps_cpp</build_depend>
+
+  <!-- 核心运行时依赖 -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+  <depend>OpenCV</depend>  <!-- 若使用源码编译需指定版本 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <depend>nav_msgs</depend>
+  <depend>pangolin</depend>
+  <depend>libgl-dev</depend>
+  <depend>libglew-dev</depend>  
+  <depend>backward_ros</depend>  <!-- gdb调试 -->
+  <depend>geometry_msgs</depend>  <!-- 若消息中包含Pose等类型 -->
+  <depend>builtin_interfaces</depend> <!-- 若使用Header的时间戳字段 -->
+  <depend>ros_environment</depend>
+  <exec_depend>rosidl_typesupport_fastrtps_cpp</exec_depend>
+
+  <!-- 声明接口功能包组 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <!-- 测试依赖 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

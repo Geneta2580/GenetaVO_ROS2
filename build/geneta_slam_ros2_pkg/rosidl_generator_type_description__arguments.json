@@ -1,0 +1,14 @@
+{
+  "package_name": "geneta_slam_ros2_pkg",
+  "output_dir": "/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg/rosidl_generator_type_description/geneta_slam_ros2_pkg",
+  "idl_tuples": [
+    "/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg/rosidl_adapter/geneta_slam_ros2_pkg:msg/FandB.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from geneta_slam_ros2_pkg/msg/FandB.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module geneta_slam_ros2_pkg {
+  module msg {
+    @verbatim (language="comment", text=
+      "基础信息头（时间戳+坐标系）")
+    struct FandB {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "特征点信息" "\n"
+        "int32[] frame_ids         # 当前帧的ID" "\n"
+        "int32[] feature_ids       # 特征点ID数组" "\n"
+        "int32[] belong_landmark_ids      # 持有该特征点的路标点ID数组" "\n"
+        "特征点图像坐标X")
+      sequence<float> u;
+
+      @verbatim (language="comment", text=
+        "图像坐标Y")
+      sequence<float> v;
+
+      @verbatim (language="comment", text=
+        "对应路标点信息（世界坐标系）" "\n"
+        "路标点ID")
+      sequence<int32> landmark_ids;
+
+      @verbatim (language="comment", text=
+        "三维坐标X")
+      sequence<double> x;
+
+      @verbatim (language="comment", text=
+        "Y")
+      sequence<double> y;
+
+      @verbatim (language="comment", text=
+        "Z")
+      sequence<double> z;
+
+      @verbatim (language="comment", text=
+        "里程计数据（位置+方向）")
+      geometry_msgs::msg::Pose pose;
+    };
+  };
+};

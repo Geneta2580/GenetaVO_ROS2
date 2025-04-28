@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "geneta_slam_ros2_pkg__py",
+		"source" : "/home/geneta/Project/geneta_slam_ros2_ws/build/geneta_slam_ros2_pkg/geneta_slam_ros2_pkg__py"
+	}
+}
